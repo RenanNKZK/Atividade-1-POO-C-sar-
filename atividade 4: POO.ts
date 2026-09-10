@@ -6,6 +6,10 @@ class Retangulo{
     this.altura= altura;
     this.largura= largura;
   }
-  calcularperimetro()
-  return.this
+  calcularPerimetro(){
+    return this.altura*2 + this. largura*2;
+  }
 }
+
+const retangulo= new Retangulo(2,4);
+console.log(retangulo.calcularPerimetro());
